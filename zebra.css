@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1500px;
+    min-width: 600px;
+}
+
+caption {
+    font-size: 2rem;
+}
+
+table {
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: silver;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+col:nth-child(odd) {
+    background-color: silver;
+}
+
+col:nth-child(even) {
+    background-color: lightgrey;
+}
